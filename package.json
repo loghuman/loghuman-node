@@ -1,0 +1,23 @@
+{
+  name: "loghuman",
+  description: "LogHuman.com's node client library",
+  homepage: "https://loghuman.com",
+  keywords: [
+    "logging",
+    "insights"
+  ],
+  author: "Todd Zusman <todd@loghuman.com>",
+  repository: {
+    type: "git",
+    url: "git://github.com/loghuman/loghuman-node.git"
+  },
+  main: "loghuman.js",
+  version: "1.0.0",
+  licenses: [
+    {
+      type: "MIT",
+      url: "https://raw.github.com/loghuman/loghuman-node/master/LICENSE"
+    }
+  ],
+  files: [ "loghuman.js" ]
+}
